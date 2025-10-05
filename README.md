@@ -21,8 +21,6 @@ Tested on a Lubuntu VM running on ProxMox on an i5-8500 with 4GB RAM and two cor
 | Optimized  | Threaded                       | 4       | 38          | 7.38 s     |
 | Optimized  | Threaded                       | 8       | 36          | 5.97 s     |
 
-> **Note:** Threaded uploads yield up to ~2× speedup in practice, depending on network and server latency.
-
 ## Installation
 
 1. Ensure you have a backup of your original ftpupload.py, located at `/usr/share/weewx/weeutil/ftpupload.py` in case something goes wrong. Open `ftpupload.py` in your favorite text editor and simply paste the contents of this new and improved ftpupload.py.
