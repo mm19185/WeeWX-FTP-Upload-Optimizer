@@ -30,7 +30,6 @@ Tested on a Lubuntu VM running on ProxMox on an i5-8500 with 4GB RAM and two cor
 2. To modify thread_count, per_file_retries or retry_backoff, feel free to experiment with what works best for you:
 
 ```ini
-                 ciphers=None,
                  thread_count=8,
                  per_file_retries=2,
                  retry_backoff=2.0
